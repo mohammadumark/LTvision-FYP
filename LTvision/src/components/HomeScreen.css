@@ -1,0 +1,71 @@
+.home-container {
+  display: flex;
+  height: 100vh; 
+    
+}
+.logo-icon{
+    color: white;
+    font-size: 40px;
+}
+
+  .navigation-container {
+    width: 50%;
+    background: linear-gradient(#0F715F, #000000EB); 
+    padding: 50px;
+    overflow-y: auto; 
+  }
+  .nav-option {
+    display: flex; 
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    height: 33px;
+}
+
+.nav-icon {
+    width: 20px; 
+    height: auto; 
+    margin-right: 10px; 
+}
+
+.main-content {
+    flex: 1; 
+    padding: 20px;
+}
+  .navigation-container {
+    width: 50%;
+    background: linear-gradient(92%, #0F715F, #000000); 
+    padding: 50px;
+  }
+  
+  .nav-option {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  @media screen and (max-width: 768px) {
+    .home-container {
+        /* flex-direction: column; */
+    }
+
+    .navigation-container {
+        height: 100vh; /* Set height to maximum viewport height */
+    }
+    .selected {
+      background-color: white;
+      color: #0F715F; /* Set text color to match gradient */
+      border-radius: 20px; /* Add rounded corners */
+      padding: 8px 12px; /* Add padding to give some space around the text */
+    }
+    
+    .main-content {
+        height: 30vh; /* Set fixed height for main content */
+        overflow-y: auto; /* Add vertical scroll when content exceeds container height */
+    }
+}
