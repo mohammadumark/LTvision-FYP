@@ -2,8 +2,11 @@
 @import "colors.css";
 .login-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 100vw; /* Changed from 210vh */
+  height: 100vh;
+  overflow: hidden; 
 }
 
 .image-container {
