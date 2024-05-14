@@ -1,3 +1,4 @@
+@import 'colors.css';
 .Register-container {
   display: flex;
   justify-content: center;
@@ -6,7 +7,7 @@
 }
 
 .image-container {
-  width: 70%; /* Adjusted width */
+  width: 70%; 
   height: 100%;
 }
 
@@ -65,7 +66,7 @@
 
 .forgot-password span {
   cursor: pointer;
-  color: #6997DD;
+  color: prima;
 }
 
 .logo-icon {
@@ -83,7 +84,7 @@
 }
 
 .register-text a {
-  color: #6997DD;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -96,15 +97,15 @@
 
 .buttons-container button.login-button {
   background-color: white;
-  color: #6997DD;
-  border: 1px solid #6997DD;
+  color:var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
 .buttons-container button.signup-button {
 
-  background-color: #6997DD;
+  background-color: var(--primary-color);
   color: white;
-  border: 1px solid #6997DD;
+  border: 1px solid var(--primary-color);
 }
 
 /* Media query for smaller screens */

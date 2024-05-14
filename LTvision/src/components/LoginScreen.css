@@ -1,5 +1,5 @@
 /* LoginScreen.css */
-
+@import "colors.css";
 .login-container {
     display: flex;
     justify-content: center;
@@ -11,7 +11,7 @@
     /* height: 100%; */
 }
 .login-button2{
-    background-color: #6997DD;
+    background-color: var(--primary-color);
     color: white;
     /* border: 1px solid #6997DD; */
     width: 100%;
@@ -75,7 +75,7 @@
 
 .forgot-password span {
     cursor: pointer;
-    color: #6997DD;
+    color: var(--primary-color);
 }
 .logo-icon {
     width: 67.98px;
@@ -94,7 +94,7 @@
 }
 
 .register-text a {
-    color: #6997DD;
+    color: var(--primary-color);
     text-decoration: none;
 }
 
@@ -106,15 +106,15 @@
 }
 
 .buttons-container button.login-button {
-    background-color: #6997DD;
+    background-color: var(--primary-color);
     color: white;
-    border: 1px solid #6997DD;
+    border: 1px solid var(--primary-color);
 }
 
 .buttons-container button.signup-button {
     background-color: white;
-    color: #6997DD;
-    border: 1px solid #6997DD;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
     @media screen and (max-width: 768px) {
   .login-container {
     flex-direction: column; /* Change flex direction to column for smaller screens */
